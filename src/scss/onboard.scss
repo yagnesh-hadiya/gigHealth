@@ -1,0 +1,79 @@
+.text-button-wrapper {
+  display: flex;
+
+  .remove-button {
+    background-color: #FFFFFF;
+    color: #E74C3C;
+    font-size: 12px;
+    padding: 0px 4px;
+    border: 1px solid #E74C3C;
+    // border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    // transition: background-color 0.3s;
+  }
+
+  .remove-button:hover {
+    background-color: #E74C3C;
+    color: white;
+  }
+}
+
+.details-header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.18px;
+}
+
+// .modal-content-center {
+//   display: flex !important;
+//   flex-direction: row !important;
+//   align-items: center !important;
+//   justify-content: center !important;
+//   text-align: center !important;
+
+//   .section-header {
+//     color: var(--Heading-Color, #262638);
+//     font-size: 18px;
+//     font-style: normal;
+//     font-weight: 600;
+//     line-height: normal;
+//   }
+
+//   .edu-card-content {
+//     color: var(--Body-Font-Color, #474D6A);
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     letter-spacing: -0.28px;
+//   }
+
+// }
+.modal-content-center {
+  display: flex !important;
+  flex-direction: column !important;
+  /* Use column for vertical centering */
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.modal-content-center .header {
+  color: var(--Heading-Color, #262638);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.modal-content-center .content {
+  color: var(--Body-Font-Color, #474D6A);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}

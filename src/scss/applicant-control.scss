@@ -1,0 +1,60 @@
+.upload-image-btn {
+  &.upload-disabled-btn {
+    .custom-file-input:hover {
+      &::before {
+        background: transparent !important;
+        color: #7f47dd;
+      }
+    }
+  }
+}
+
+.select_input__single-value--is-disabled {
+  opacity: 0.5 !important;
+}
+// .select_input__value-container--has-value {
+// .select_input__single-value {
+//   color: #474d6a;
+// }
+// }
+
+.select_input__single-value--is-disabled {
+  opacity: 0.9 !important;
+}
+
+.accented-date-picker {
+  .react-datepicker__close-icon::after {
+    background-color: #7f47dd;
+  }
+  .react-datepicker__close-icon--disabled::after {
+    background-color: #ccc;
+  }
+}
+
+.yellow-btn {
+  &:disabled {
+    background-color: lighten(#fbae17, 10%) !important;
+    border-color: lighten(#fbae17, 10%) !important;
+    opacity: 1;
+  }
+}
+
+.main-home-large-card {
+  min-width: 93%;
+}
+
+.doc-status {
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.percentage-above-50 {
+  background-color: #75bb50;
+}
+
+.percentage-below-50 {
+  background-color: #fbae17;
+}

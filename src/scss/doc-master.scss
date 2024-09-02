@@ -1,0 +1,16 @@
+.offcanvas {
+    .offcanvas-header {
+        border-bottom: 1px solid #DDDDDD;
+        .offcanvas-title {
+            color: var(--primary-text);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.36px;
+        }
+    }
+    .custom-textarea{
+        height: 114px;
+    }
+}

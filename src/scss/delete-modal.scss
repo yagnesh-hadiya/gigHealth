@@ -1,0 +1,35 @@
+.delete-user-modal-title {
+    font-family: DMSans-Bold, sans-serif;
+    font-size: 1.2rem;
+}
+
+.delete-user-form-title {
+    font-family: DMSans-Medium, sans-serif;
+    font-size: 0.84rem;
+    color: #71717A;
+    justify-content: center;
+}
+
+.delete-user-modal {
+    >.modal-content {
+        >.modal-body {
+            padding: 1rem !important;
+        }
+    }
+}
+
+.delete-user-form-cancel {
+    background-color: unset !important;
+    color: var(--deep-greige) !important;
+    border: 1px solid #C8C8C8 !important;
+    height: 2.64rem;
+    width: 9rem;
+}
+
+.delete-user-form-delete {
+    background-color: #B91C1C !important;
+    color: var(--white) !important;
+    border: 1px solid #B91C1C !important;
+    height: 2.64rem;
+    width: 9rem;
+}

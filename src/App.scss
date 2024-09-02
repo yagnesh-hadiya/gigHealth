@@ -1,0 +1,40 @@
+// react strap css import
+@import "bootstrap/dist/css/bootstrap.css";
+
+// variable scss
+@import "../src/scss/variable";
+
+// login page scss
+@import "../src/scss/auth.scss";
+
+// global scss
+@import "../src//scss/global.scss";
+
+// layout header-sidebar
+@import "../src/scss/layout.scss";
+
+@import "../src/scss/facility.scss";
+
+@import "../src/scss/doc-master.scss";
+
+// font family
+@import "../src/scss/font.scss";
+
+// job scss
+@import "../src/scss//job.scss";
+
+// jobs scss
+@import "../src/scss/jobs.scss";
+
+// notes scss
+@import "../src/scss/notes.scss";
+
+//roster scss
+@import "../src/scss/roster.scss";
+
+//professionals
+@import "../src/scss/professionals.scss";
+
+@import "../src/scss/professionalDetails.scss";
+
+@import "../src/scss/util";

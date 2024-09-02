@@ -1,0 +1,30 @@
+.modal-content {
+
+    overflow: visible;
+}
+
+.profile-pic-wrapper {
+    max-width: 140px;
+    border-radius: 6px;
+    background: #DDDDEA;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+    .camera-img {
+        height: 54px;
+        max-width: 54px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 100px;
+    }
+}
+.CircularProgressbar{
+    position: absolute;
+    top: 0;
+}

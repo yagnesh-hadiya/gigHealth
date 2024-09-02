@@ -1,0 +1,372 @@
+.progress-bar-section {
+  .percentage {
+    color: var(--FFF, #fff);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #47b749;
+    padding: 2px;
+    position: absolute;
+    left: 38%;
+    bottom: -14px;
+  }
+}
+
+.file-text {
+  span {
+    font-size: 14px;
+  }
+}
+
+.roster-table-wrapper {
+  .jzrolw {
+    overflow: auto hidden !important;
+    z-index: 9;
+  }
+}
+.opening-assignments {
+  .sc-feUZmu {
+    overflow: hidden !important;
+    @media only screen and (max-width: 1700px) {
+      overflow: auto !important;
+    }
+  }
+  .jzrolw {
+    overflow: hidden !important;
+    @media only screen and (max-width: 1700px) {
+      overflow: auto !important;
+    }
+  }
+  &.onboarding-table {
+    .jzrolw {
+      overflow: auto !important;
+    }
+  }
+}
+// .onboarding-table .jzrolw {
+//   overflow: hidden;
+// }
+
+.jzrolw {
+  // overflow: visible !important;
+  overflow: auto !important;
+  &.nested-datatable-roster {
+    overflow: initial !important;
+    // .rdt_TableCell{
+    //     justify-content: flex-end;
+    // }
+  }
+
+  .blGEez {
+    overflow: visible !important;
+
+    .sc-cwHptR.brFloq {
+      overflow: visible !important;
+    }
+  }
+}
+
+.history-table {
+  .rdt_TableHead {
+    .rdt_TableHeadRow {
+      background-color: var(--cream-color);
+    }
+  }
+
+  .rdt_TableBody {
+    .rdt_TableRow {
+      // min-height: auto !important;
+      // padding: 12px 0;
+      border: 1px solid #ddddea;
+    }
+  }
+}
+
+// .right-buttons {
+//     .add-more {
+//         width: 100px;
+//     }
+// }
+
+.main-wrapper-section {
+  min-height: 100vh;
+}
+
+.bg-red {
+  border-radius: 4px;
+  border: 1px solid #e1baaa !important;
+  background: rgba(231, 76, 60, 0.06) !important;
+}
+
+.file-picker-section {
+  width: 131px;
+  height: 131px;
+  // flex-shrink: 0;
+
+  .file-picker-label-wrapper {
+    height: 100%;
+
+    // display: block;
+    .cancel-wrapper {
+      span {
+        font-size: 34px;
+      }
+
+      p {
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.list-wrapper {
+  li {
+    color: #262638;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    margin-bottom: 25px;
+  }
+
+  .text-wrapper {
+    margin: 8px 0;
+
+    .radio-buttons {
+      justify-content: flex-start !important;
+      align-items: center;
+
+      .radio-text {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.facility-header-wrap {
+  &.professional-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .content-wrapper {
+      width: 15%;
+      padding: 5px 10px !important;
+      justify-content: center;
+    }
+
+    .details-wrapper {
+      width: 83%;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .content-wrapper {
+        width: 20%;
+        // padding: 5px 10px !important;
+      }
+
+      .details-wrapper {
+        width: 78%;
+      }
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .content-wrapper {
+        width: 25%;
+        // padding: 5px 10px !important;
+      }
+
+      .details-wrapper {
+        width: 73%;
+      }
+    }
+    @media only screen and (max-width: 814px) {
+      .content-wrapper {
+        width: 30%;
+        // padding: 5px 10px !important;
+      }
+
+      .details-wrapper {
+        width: 68%;
+      }
+    }
+
+    .application-wrapper {
+      position: unset;
+    }
+
+    .first-section-content {
+      h1 {
+        text-wrap: nowrap;
+      }
+
+      .msg-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .second-section-content {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 0 !important;
+      gap: 4px;
+      &.header-space-text {
+        gap: 22px;
+      }
+      .main-text {
+        margin-right: 0;
+      }
+
+      span {
+        padding: 0;
+        white-space: nowrap;
+        line-height: 1.8 !important;
+      }
+    }
+
+    .first-section-content {
+      padding: 0 !important;
+    }
+  }
+}
+
+.hgByPU {
+  overflow: visible !important;
+
+  div:first-child {
+    overflow: visible !important;
+  }
+}
+
+.assignment-history-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1404px) {
+  .boarding-doc {
+    flex-wrap: wrap;
+
+    button {
+      margin-top: 10px;
+    }
+  }
+}
+
+.quick-note {
+  padding: 12px 10px;
+  p {
+    color: #262638;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  span {
+    color: #474d6a;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+}
+.custom-select-picker-all {
+  .css-1tg3c3r-control {
+    min-height: 38px !important;
+  }
+}
+.action-btn {
+  // @media only screen and (max-width:992px){
+  //     flex-wrap: nowrap !important;
+  // }
+  .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.filter-section {
+  &.sidebar-dropdown {
+    .dropdown-toggle {
+      border: none;
+    }
+  }
+}
+.professional-card {
+  .main-card-wrapper {
+    min-height: auto !important;
+    height: auto;
+  }
+}
+
+.datepicker-container {
+  .rmdp-calendar {
+    // .rmdp-day {
+    //   &.rmdp-today {
+    //     span {
+    //       background-color: #216ba5;
+    //     }
+    // }
+    &.rmdp-selected {
+      span {
+        background-color: #216ba5;
+      }
+    }
+  }
+}
+//   position: relative;
+.rmdp-container {
+  display: block !important;
+  // input::selection {
+  //   //   background-color: red;
+  //   color: red;
+  // }
+  // input[attribute="value"] {
+  //   background-color: red;
+  //   color: red;
+  // }
+  // input::selection {
+  //   background-color: red;
+  // }
+  .rmdp-input {
+    border: 1px solid #ddddea !important;
+    border-radius: 2px;
+    height: auto !important;
+    margin: 1px 0;
+    padding: 6px 5px !important;
+    width: 100%;
+  }
+
+  .rmdp-input::placeholder {
+    color: #ddddea;
+  }
+}
+
+//   .calendar-icon {
+//     position: absolute;
+//     top: 12px;
+//     right: 10px;
+//   }
+// }
+
+.custom-calendar-wrapper {
+  .custom-input {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 35px;
+  }
+}

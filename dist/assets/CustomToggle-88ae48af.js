@@ -1,0 +1,1 @@
+import{r as l,c as e}from"./index-e391d606.js";const u=({onStateChange:t,checked:n,allow:r})=>{const[a,c]=l.useState(n),o=()=>{c(s=>(t(!s),!s))};return r?e.jsxs("label",{className:"toggle-switch",children:[e.jsx("input",{type:"checkbox",checked:a,onChange:o}),e.jsx("span",{className:"slider round"})]}):null};export{u as T};

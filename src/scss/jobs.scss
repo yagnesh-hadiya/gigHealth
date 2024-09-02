@@ -1,0 +1,282 @@
+.header-input {
+  background: var(--creame-color, #F7F8F3) !important;
+  border-radius: 3px;
+  width: 92px;
+  height: 31px;
+  font-size: 14px;
+}
+
+.facility-job-header-input {
+  margin-left: 15px;
+  &.input-header{
+    @media only screen and (max-width:890px){
+      margin-left: 0px;
+    }
+  }
+}
+
+.facilityjob-custom-dropdown {
+  .custom-select-picker-all {
+    // background: #639A35 !important;
+    color: #FFF !important;
+    height: 28px !important;
+    margin-left: 15px;
+    .css-jvzpbz-control{
+      border-color: #639A35 !important;
+    }
+    .css-42jx3b-control{
+      &:hover{
+        border-color: #639A35 !important;
+      }
+    }
+  
+  }
+  &.profesional-select{
+    .custom-select-picker-all {
+      // background: #639A35 !important;
+      color: #FFF !important;
+      height: 28px !important;
+      margin-left: 15px;
+      .css-jvzpbz-control{
+        border-color: #639A35 !important;
+      }
+      .css-42jx3b-control{
+        &:hover{
+          border-color: #639A35 !important;
+        }
+      }
+    
+    }
+  }
+}
+
+.dollar-amount {
+  color: #474D6A;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.88px;
+  text-wrap: nowrap;
+}
+
+.week {
+  color: #474D6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.hospital-detail-text {
+  color: var(--primary-text);
+  margin-left: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.bill-rate {
+  margin-top: 2px;
+  color: var(--label-color, #717B9E);
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+.bill-rate-rating {
+  margin-top: 2px;
+  color: var(--label-color, #717B9E);
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.details-content {
+  padding: 0 0 0 8px;
+  &.view-job-content{
+    padding-left: 14px !important;
+    p{
+      margin-bottom: 4px;
+    }
+  }
+
+  .temp-details {
+    color: #262638;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .temp-answer {
+    color: var(--secondary-text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.facility-job-search {
+  max-width: 200px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.job-count {
+  margin-left: 4px;
+  color: #474D6A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.job-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.job-id {
+  padding-top: 3px;
+  text-align: center;
+  font-size: 14px;
+  color: #474D6A;
+}
+
+.job-input {
+  height: 30px;
+  width: 70px;
+  font-size: 14px;
+  color: #474D6A;
+  background-color: #DDDDEA;
+}
+.professional-table{
+  margin: 10px 20px;
+  .table-username{
+    margin-left: -25px;
+  }
+  table{
+    th{
+      background-color: #F7F8F3;
+      font-size: 14px;
+      font-weight: 500;
+      color: #262638;
+      text-align: start;
+      border-bottom: 1px solid #DDDDEA;
+      padding: 10px;
+
+   
+  
+    }
+    tr{
+   
+      &:nth-child(odd) {
+        background-color:  #fff;
+
+      }
+
+      &:nth-child(even) {
+        background-color:#F7F8F3;
+      }
+    }
+    td{
+      color: #474D6A;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px;
+      border-bottom: 1px solid #DDDDEA;
+   
+    }
+  }
+}
+.css-8wpleg-control{
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  min-width: 100px;
+  // max-width: 100px;;
+  // padding: 2px 0px;
+  background-color: rgba(93, 67, 145, 1) !important;
+  .css-art2ul-ValueContainer2{
+    overflow: visible !important;
+    .css-7crn4c-singleValue{
+      overflow: visible !important;
+    }
+    .css-yl5mvd-indicatorContainer
+    {
+      &:hover{
+        color: #fff;
+      }
+    }
+      
+    
+  }
+}
+.notes-wrapper{
+  @media only screen and (max-width:1024px){
+    flex-wrap: wrap;
+  }
+}
+.css-18h1lk0-control{
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  min-width: 100px;
+  // max-width: 100px;;
+  .css-art2ul-ValueContainer2{
+    // padding: 2px 0px;
+
+    overflow: visible !important;
+    .css-7crn4c-singleValue{
+      overflow: visible !important;
+    }
+    .css-yl5mvd-indicatorContainer{
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+  .css-4xgw5l-IndicatorsContainer2{
+    .css-yl5mvd-indicatorContainer{
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+
+
+}
+.css-1scchq4-indicatorContainer
+{
+  &:hover{
+    color: #fff !important;
+  }
+}
